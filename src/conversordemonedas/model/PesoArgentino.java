@@ -4,11 +4,16 @@
  */
 package conversordemonedas.model;
 
+import conversordemonedas.Util.EnumPais;
+
 /**
  *
  * @author lean_
  */
-public class PesoArgentino extends Moneda{
+public class PesoArgentino extends Moneda {
 
-    
+    public PesoArgentino() {
+        super("Peso", EnumPais.ARGENTINA);
+    }
+
 }

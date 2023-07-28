@@ -4,10 +4,15 @@
  */
 package conversordemonedas.model;
 
+import conversordemonedas.Util.EnumPais;
+
 /**
  *
  * @author lean_
  */
 public class Dolar extends Moneda{
     
+    public Dolar(){
+        super("Dolar", EnumPais.EEUU);
+    }
 }

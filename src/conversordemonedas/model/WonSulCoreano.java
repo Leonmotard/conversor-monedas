@@ -4,10 +4,15 @@
  */
 package conversordemonedas.model;
 
+import conversordemonedas.Util.EnumPais;
+
 /**
  *
  * @author lean_
  */
-public class WonSulCoreano extends Moneda{
-    
+public class WonSulCoreano extends Moneda {
+
+    public WonSulCoreano() {
+        super("Won", EnumPais.COREADELSUR);
+    }
 }

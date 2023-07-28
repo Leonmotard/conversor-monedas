@@ -4,10 +4,15 @@
  */
 package conversordemonedas.model;
 
+import conversordemonedas.Util.EnumPais;
+
 /**
  *
  * @author lean_
  */
-public class LibrasEsterlinas extends Moneda{
-    
+public class LibrasEsterlinas extends Moneda {
+
+    public LibrasEsterlinas() {
+        super("LibrasEsterlinas", EnumPais.UK);
+    }
 }
